@@ -1,5 +1,8 @@
 # Introduction
-
+Repositorios usados:
+- Gitbook: *https://alu0100826166.gitbooks.io/rutasexpress*
+- Heroku : *https://dashboard.heroku.com/apps/fast-depths-23740*
+- Github : *https://github.com/ULL-ESIT-PL-1617/estudiar-las-rutas-en-expressjs-ibrahim-david-nicolas*
 
 ### Docs
 ##### Routes
