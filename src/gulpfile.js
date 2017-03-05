@@ -1,14 +1,22 @@
-//Gulpfile que coge los archivos javascripts que se encuentran en el directorio y
-//los concatena y minimiza. Guarda el resultado en el directorio js
+var gulp = require('gulp');
 
-var gulp = require('gulp'),
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify');
+gulp.task('routes', function() {
+    console.log('Hello from routes tasks');
+    var exec = require('child_process').exec;
+    var proc = exec("node 1.js", function() {
+    });
+})
 
+gulp.task('express', function() {
+    console.log('Hello from express tasks')
+    var exec = require('child_process').exec;
+    var proc = exec("node 1.js", function() {
+    });
+})
 
-gulp.task('default', function () {
-    gulp.src('*.js')
-    .pipe(concat('operaciones.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('js'))
+gulp.task('API', function() {
+    console.log('Hello from API tasks')
+    var exec = require('child_process').exec;
+    var proc = exec("node 4.js", function() {
+    });
 });
